@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    margin: 3px;
+    background-color: darkgray;  
+    width: 100%; 
+}
+nav{
+    color: darkgray;
+    background-color: aliceblue;
+    margin: 3px;
+}
+main{
+    display: flex;
+    margin: 1%;
+    border: solid 1% black;
+}
+submain{
+    display: flex;
+    margin: 1%;
+    border: solid 10% black;
+    width: 100%;
+}
+studentmain{
+    display: flex;
+    margin: 1%;
+    border: solid 1% black;
+    background-color: aquamarine;
+    flex-direction: column;
+    width: 920px;
+    
+}
+section{
+    background-color: azure;
+    margin: 3px;
+    border: 1%;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+article{
+    background-color: aquamarine;
+    margin: 3px;
+    border: 1%;
+    border-color: black;
+    display: fixed;
+    width: 1100px;
+}
+aside{
+    background-color: blue;
+    margin: 3px;
+    border: solid 1%;
+    border-color: black;
+    flex-direction: column;
+}
+footer{
+    background-color: darkgray;
+    margin: 3px;
+    border: 1%;
+    border-color: black;
+}
